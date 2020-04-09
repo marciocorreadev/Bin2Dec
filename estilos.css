@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(41, 38, 38);
+    color: beige;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.1em;
+
+
+    height: 100vh;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.conteudo {
+    height: 50%;
+    width: 50%;
+}
+
+.conteudo label {
+    display: block;
+    color: rgba(0, 89, 255, 0.863);
+
+}
+
+.conteudo input {
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+#resultado {
+    color: aliceblue;
+}
+
+label:first-child {
+    margin-top: 30px;
+}
+
+div>label {
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+/* error */
+.error {
+    border: 1px solid red;
+    background-color: rgb(187, 74, 74);
+
+}
+
+span {
+    font-size: 0.8em;
+    font-weight: 100;
+    color: red;
+    display: none;
+    margin-bottom: -21px;
+}
